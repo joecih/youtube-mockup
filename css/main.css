@@ -28,7 +28,28 @@ ul {
     box-shadow: 2px 2px 8px black;
 }
 
-iframe {
-   box-shadow: 2px 2px 8px black;
+.more-videos {
+	background-color: #a62423;
+	color: white;
+	margin-top: 20px;
 }
+
+.text {
+	width: 50px;
+	margin-right: 100px;
+}
+
+.more-videos p {
+	font-size: 10px;
+	
+}
+
+.more-vid-thumbnail {
+	margin-right: 10px;
+}
+
+.more-vid-row-bot, .more-vid-row-top {
+	margin-top: 20px;
+}
+
 
