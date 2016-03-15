@@ -20,15 +20,15 @@ div[class*="col-"] {
 ul {
     list-style-type: none;
 }
-
-/*.sub-videos {
-    margin-top: 52px;
-}*/
-
-/*#search-input {
-	width: 200%;
+.list-group-item {
+    border: 0;
 }
 
-.search-btn {
-	float: right;
-}*/
+.list-group-item img {
+    box-shadow: 2px 2px 8px black;
+}
+
+iframe {
+   box-shadow: 2px 2px 8px black;
+}
+
