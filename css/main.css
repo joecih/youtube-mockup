@@ -20,6 +20,9 @@ div[class*="col-"] {
 ul {
     list-style-type: none;
 }
+.list-group {
+    margin: 52px 0;
+}
 .list-group-item {
     border: 0;
 }
