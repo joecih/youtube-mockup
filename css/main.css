@@ -14,10 +14,26 @@
 	padding-top: 64px;
 }
 
-/*#search-input {
-	width: 200%;
+.more-videos {
+	background-color: #a62423;
+	color: white;
+	margin-top: 20px;
 }
 
-.search-btn {
-	float: right;
-}*/
+.text {
+	width: 50px;
+	margin-right: 100px;
+}
+
+.more-videos p {
+	font-size: 10px;
+	
+}
+
+.more-vid-thumbnail {
+	margin-right: 10px;
+}
+
+.more-vid-row-bot, .more-vid-row-top {
+	margin-top: 20px;
+}
