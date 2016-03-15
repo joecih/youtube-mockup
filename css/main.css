@@ -1,8 +1,8 @@
-.yt {
-	border:1px dotted red;
-	width: 100px;
+.yt1, .yt2, .yt3 {
+	/*border:1px dotted red;*/
+	width: 100%;
 }
 
 .row {
-	border: 1px dashed blue;
+	/*border: 1px dashed blue;*/
 }
