@@ -1,5 +1,9 @@
-.yt1, .yt2, .yt3 {
-	border:1px dashed lightcoral;
+.container {
+    border: 1px dashed lightblue;
+    padding: 10px;
+}
+div[class*="col-"] {
+	/*border:1px dashed lightcoral;*/
 }
 
 .row {
@@ -13,7 +17,33 @@
 .yt3 {
 	padding-top: 64px;
 }
+ul {
+    list-style-type: none;
+}
+.list-group {
+    margin: 52px 0;
+}
+.list-group-item {
+    border: 0;
+}
 
+.list-group-item img {
+    box-shadow: 2px 2px 8px black;
+}
+
+.more-videos {
+	background-color: #a62423;
+	color: white;
+	margin-top: 20px;
+}
+
+<<<<<<< HEAD
+.text {
+	width: 50px;
+	margin-right: 100px;
+}
+
+=======
 .more-videos {
 	background-color: #a62423;
 	color: white;
@@ -25,6 +55,7 @@
 	margin-right: 100px;
 }
 
+>>>>>>> master
 .more-videos p {
 	font-size: 10px;
 	
@@ -36,4 +67,10 @@
 
 .more-vid-row-bot, .more-vid-row-top {
 	margin-top: 20px;
+<<<<<<< HEAD
 }
+
+
+=======
+}
+>>>>>>> master
