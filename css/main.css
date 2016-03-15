@@ -1,5 +1,9 @@
-.yt1, .yt2, .yt3 {
-	border:1px dashed lightcoral;
+.container {
+    border: 1px dashed lightblue;
+    padding: 10px;
+}
+div[class*="col-"] {
+	/*border:1px dashed lightcoral;*/
 }
 
 .row {
@@ -13,6 +17,13 @@
 .yt3 {
 	padding-top: 64px;
 }
+ul {
+    list-style-type: none;
+}
+
+/*.sub-videos {
+    margin-top: 52px;
+}*/
 
 /*#search-input {
 	width: 200%;
