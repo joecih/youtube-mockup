@@ -1,8 +1,12 @@
 .yt1, .yt2, .yt3 {
-	/*border:1px dotted red;*/
-	width: 100%;
+	border:1px dashed lightcoral;
 }
 
 .row {
-	/*border: 1px dashed blue;*/
+	border: 1px dashed lightgreen;
 }
+
+.form-inline {
+    padding-top: 50px;
+}
+
