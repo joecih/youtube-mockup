@@ -37,25 +37,11 @@ ul {
 	margin-top: 20px;
 }
 
-<<<<<<< HEAD
 .text {
 	width: 50px;
 	margin-right: 100px;
 }
 
-=======
-.more-videos {
-	background-color: #a62423;
-	color: white;
-	margin-top: 20px;
-}
-
-.text {
-	width: 50px;
-	margin-right: 100px;
-}
-
->>>>>>> master
 .more-videos p {
 	font-size: 10px;
 	
@@ -67,10 +53,4 @@ ul {
 
 .more-vid-row-bot, .more-vid-row-top {
 	margin-top: 20px;
-<<<<<<< HEAD
 }
-
-
-=======
-}
->>>>>>> master
