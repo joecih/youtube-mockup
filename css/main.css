@@ -48,16 +48,9 @@ ul {
 }
 
 .more-videos p {
-    font-size: 10px;
-}
 
-.more-vid-thumbnail {
-    margin-right: 10px;
-}
-
-.more-vid-row-bot,
-.more-vid-row-top {
-    margin-top: 20px;
+	font-size: 10px;
+	
 }
 
 .affix {
@@ -102,3 +95,30 @@ ul {
         margin: 0;
     }
 }*/
+
+.more-vid-row-bot, .more-vid-row-top {
+	margin-top: 20px;
+}
+
+.users {
+	color: blue;
+}
+
+.profile-content {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: gray;
+}
+
+.related-text {
+	margin-left: 15px;
+}
+
+.related-style {
+	color: blue;
+}
+
+.related-thumbnails
+{
+	padding: 0px 10px;
+}
