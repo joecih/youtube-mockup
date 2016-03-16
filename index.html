@@ -51,8 +51,8 @@
                         </div>
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
-                                <a><span >Home</span></a> |
-                                <a><span >Videos</span></a> |
+                                <a id="home-sel"><span >Home</span></a> |
+                                <a id="videos-sel"><span >Videos</span></a> |
                                 <a><span >Channels</span></a>
                             </div>
                         </div>
@@ -75,92 +75,7 @@
         </div>
         <!--/.nav-collapse -->
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Featured</h3>
-                <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive embed-responsive-16by9">
-                    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/jRkJNHEFt8o" frameborder="0" allowfullscreen></iframe>-->
-                    <img src="images/vidStill1.png" class="img-responsive">
-                </div>
-            </div>
-            <div class="col-md-6 sub-videos">
-                <div class="row">
-                    <div class="col-xs-6 col-md-12">
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <img class="more-vid-thumbnail pull-left" src="images/vidSmall1.png">
-                                <span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</span>
-                            </li>
-                            <li class="list-group-item">
-                                <img class="more-vid-thumbnail pull-left" src="images/vidSmall2.png"> Cras justo odio
-                                <span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</span>
-                            </li>
-                            <li class="list-group-item">
-                                <img class="more-vid-thumbnail pull-left" src="images/vidSmall3.png"> Cras justo odio
-                                <span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container more-videos">
-        <h3>More Videos</h3>
-        <div class="row more-vid-row-top">
-            <div class="col-xs-6 col-md-3">
-                <a href="#">
-                    <img class="more-vid-thumbnail pull-left" src="http://placehold.it/120x120" alt="...">
-                </a>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
-            </div>
-
-            <div class="col-xs-6 col-md-3">
-                <a href="#">
-                    <img class="more-vid-thumbnail pull-left" src="//i.ytimg.com/vi_webp/JWnLo7_GfbU/mqdefault.webp">
-                </a>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
-            </div>
-
-            <div class="col-xs-6 col-md-3">
-                <a href="#">
-                    <img class="more-vid-thumbnail pull-left" src="http://placehold.it/120x120" alt="...">
-                </a>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
-            </div>
-
-            <div class="col-xs-6 col-md-3">
-                <a href="#">
-                    <img class="more-vid-thumbnail pull-left" src="http://placehold.it/120x120" alt="...">
-                </a>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
-            </div>
-        </div>
-        <div class="row more-vid-row-bot">
-            <div class="col-xs-6 col-md-3">
-                <a href="#">
-                    <img class="more-vid-thumbnail pull-left" src="http://placehold.it/120x120" alt="...">
-                </a>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
-            </div>
-
-            <div class="col-xs-6 col-md-3">
-                <a href="#">
-                    <img class="more-vid-thumbnail pull-left" src="http://placehold.it/120x120" alt="...">
-                </a>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
-            </div>
-
-            <div class="col-xs-6 col-md-3">
-                <a href="#">
-                    <img class="more-vid-thumbnail pull-left" src="http://placehold.it/120x120" alt="...">
-                </a>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
-            </div>
-        </div>
+    <div class="content-frame">
 
     </div>
     <div class="container">
@@ -172,47 +87,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
-
-<!--<h1>Home</h1>
-        <hr>
-        <div class="row">
-            <div class="col-md-3 yt1">
-                <a href="https://www.youtube.com"><img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/youtube-128.png"></a>
-            </div>
-            <div class="col-md-6 yt2 text-center">
-                <div class="row">
-                    <div class="">
-                        <form class="form-inline" role="form">
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="search-input">
-                            </div>
-                            <button type="submit" class="btn btn-default search-btn">Search</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <a><span >Home</span></a> |
-                        <a><span >Videos</span></a> |
-                        <a><span >Channels</span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 yt3">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <a><span >Create Account</span></a> or
-                        <a><span >Sign-In</span></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <a><span>Subscriptions</span></a> |
-                    <a><span >History</span></a> |
-                    <a><span >Upload</span></a>
-                </div>
-            </div>
-        </div>
-        <hr>-->
