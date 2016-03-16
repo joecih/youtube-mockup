@@ -1,28 +1,33 @@
-.container {
+/*.container {
     border: 1px dashed lightblue;
     padding: 10px;
-}
+}*/
+
 div[class*="col-"] {
-	/*border:1px dashed lightcoral;*/
+    /*border:1px dashed lightcoral;*/
 }
 
 .row {
-	border: 1px dashed lightgreen;
+    border: 1px dashed lightgreen;
 }
 
 .form-inline {
     padding-top: 50px;
 }
 
-.yt3 {
+
+/*.yt3 {
 	padding-top: 64px;
-}
+}*/
+
 ul {
     list-style-type: none;
 }
+
 .list-group {
     margin: 52px 0;
 }
+
 .list-group-item {
     border: 0;
 }
@@ -32,45 +37,45 @@ ul {
 }
 
 .more-videos {
-	background-color: #a62423;
-	color: white;
-	margin-top: 20px;
-}
-
-<<<<<<< HEAD
-.text {
-	width: 50px;
-	margin-right: 100px;
-}
-
-=======
-.more-videos {
-	background-color: #a62423;
-	color: white;
-	margin-top: 20px;
+    background-color: #a62423;
+    color: white;
+    margin-top: 20px;
 }
 
 .text {
-	width: 50px;
-	margin-right: 100px;
+    width: 50px;
+    margin-right: 100px;
 }
 
->>>>>>> master
 .more-videos p {
-	font-size: 10px;
-	
+    font-size: 10px;
 }
 
 .more-vid-thumbnail {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
-.more-vid-row-bot, .more-vid-row-top {
-	margin-top: 20px;
-<<<<<<< HEAD
+.more-vid-row-bot,
+.more-vid-row-top {
+    margin-top: 20px;
 }
 
-
-=======
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 222;
 }
->>>>>>> master
+
+.affix + .container {
+    padding-top: 70px;
+}
+
+.navbar {
+    margin: 0 88px;
+}
+
+@media screen and (max-width: 760px) {
+    .navbar {
+        margin: 0;
+    }
+}
