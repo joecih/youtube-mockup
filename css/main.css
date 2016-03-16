@@ -73,6 +73,11 @@ ul {
 .navbar {
     margin: 0 88px;
 }
+.head1 {
+    background: url('//yt3.ggpht.com/-R0KGSBqvxWc/VZrg0p0qBlI/AAAAAAAAAiI/y4aJQXuUYKA/w2120-fcrop64=1,00005a57ffffa5a8-nd/image1%2B2.JPG') 50% 50% no-repeat;
+    background-position: center;
+    padding: 40px;
+}
 
 @media screen and (max-width: 760px) {
     .navbar {
