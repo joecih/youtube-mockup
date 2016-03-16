@@ -1,18 +1,9 @@
-/*.container {
-    border: 1px dashed lightblue;
-    padding: 10px;
-}*/
-
-div[class*="col-"] {
-    /*border:1px dashed lightcoral;*/
-}
-
-.row {
-    /*border: 1px dashed lightgreen;*/
-}
-
 .form-inline {
     padding-top: 50px;
+}
+
+.yt3 {
+    padding-top: 60px;
 }
 
 a:hover {
@@ -108,7 +99,6 @@ ul {
 }
 
 .profile-content {
-    border: 1px solid black;
     padding: 5px;
     background-color: lightgray;
 }
@@ -138,4 +128,8 @@ ul {
 
 p.more-vid-text {
 	font-size: 10px;
+}
+
+#profile-img {
+    width: 120px;
 }
