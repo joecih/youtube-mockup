@@ -6,4 +6,6 @@ $(document).ready(function() {
     $("#videos-sel").click(function() {
         $(".content-frame").load("page2.html");      
     });
+    
+    $(".content-frame").load("page1.html");
 });

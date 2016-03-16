@@ -15,10 +15,9 @@ div[class*="col-"] {
     padding-top: 50px;
 }
 
-
-/*.yt3 {
-	padding-top: 64px;
-}*/
+a:hover {
+    cursor: pointer;
+}
 
 ul {
     list-style-type: none;
