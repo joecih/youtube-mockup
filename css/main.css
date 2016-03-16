@@ -1,19 +1,14 @@
-/*.container {
-    border: 1px dashed lightblue;
-    padding: 10px;
-}*/
-
-div[class*="col-"] {
-    /*border:1px dashed lightcoral;*/
-}
-
-.row {
-    /*border: 1px dashed lightgreen;*/
-}
-
 .form-inline {
     padding-top: 50px;
 }
+
+.yt3 {
+    padding-top: 60px;
+}
+
+/*div[class*="col-"] {
+    border: 1px dashed red;
+}*/
 
 a:hover {
     cursor: pointer;
@@ -66,10 +61,6 @@ ul {
 }
 
 
-/*.navbar {
-    margin: 0 88px;
-}*/
-
 .head {
     position: relative;
     padding-top: 42px;
@@ -83,7 +74,7 @@ ul {
     position: absolute;
     background: url('//yt3.ggpht.com/-R0KGSBqvxWc/VZrg0p0qBlI/AAAAAAAAAiI/y4aJQXuUYKA/w2120-fcrop64=1,00005a57ffffa5a8-nd/image1%2B2.JPG') 50% 50% no-repeat;
     background-position: center;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .sub-head {
@@ -92,12 +83,9 @@ ul {
     z-index: 1;
 }
 
-
-/*@media screen and (max-width: 760px) {
-    .navbar {
-        margin: 0;
-    }
-}*/
+.navbar {
+    border-radius: 0;
+}
 
 .more-vid-row-bot, .more-vid-row-top {
 	margin-top: 20px;
@@ -131,11 +119,16 @@ ul {
 	margin-bottom: 5px;
 }
 
-
 .modal-body img{
 	width: 100%;
 }
 
 p.more-vid-text {
 	font-size: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        margin: 0;
+    }
 }
