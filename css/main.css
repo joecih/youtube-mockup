@@ -33,13 +33,16 @@ ul {
 }
 
 .list-group-item img {
-    /*box-shadow: 2px 2px 8px black;*/
+    box-shadow: 2px 2px 8px black;
 }
 
 .more-videos {
-    /*background-color: #a62423;*/
-    color: white;
+    background-color: lightgrey;
+    color: black;
     margin-top: 20px;
+}
+.more-videos img {
+    width: 120px;
 }
 
 .text {
@@ -70,6 +73,7 @@ ul {
 
 .head {
     position: relative;
+    padding-top: 42px;
 }
 
 .head:after {
