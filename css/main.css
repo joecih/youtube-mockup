@@ -58,3 +58,23 @@ ul {
 .users {
 	color: blue;
 }
+
+.profile-content {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: gray;
+}
+
+.related-text {
+	margin-left: 15px;
+}
+
+.related-style {
+	color: blue;
+}
+
+.related-thumbnails
+{
+	padding: 0px 10px;
+}
+   
