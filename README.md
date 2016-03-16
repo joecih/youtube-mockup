@@ -1,12 +1,10 @@
 
 # Youtube - Mockup
 
--- A simple youtube representation
+-- A simple youtube replica.
 
 ## App Face
-![)o( pixBay )]()o( pixBay ) Screenshot!")
+![YouTube Mockup](https://github.com/joecih/youtube-mockup/blob/master/appFace.png)o( pixBay ) Screenshot!")
 
-## Instructions:
-----
 
 
