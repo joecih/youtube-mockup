@@ -122,14 +122,13 @@ p.more-vid-text {
 	font-size: 10px;
 }
 
-<<<<<<< HEAD
+
 #profile-img {
     width: 120px;
 }
-=======
+
 @media screen and (max-width: 800px) {
     .navbar {
         margin: 0;
     }
 }
->>>>>>> origin/master
